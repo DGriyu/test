@@ -10,7 +10,7 @@ import kubernetes
 @app.route("/")
 def hello():
 	#returns the function access as an http dump
-    return "helloWORLD "#access()
+    return "hello Korymbus"#access()
 
 def access():
 	#configure whatever kubernetes cluster is in the local environment
